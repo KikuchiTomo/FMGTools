@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B55E8111296A88BF007F97E3 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E8110296A88BF007F97E3 /* Matrix.swift */; };
+		B55E8113296A8E93007F97E3 /* HeatMapGraphICA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E8112296A8E93007F97E3 /* HeatMapGraphICA.swift */; };
+		B55E8115296A8FE0007F97E3 /* LineICAGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55E8114296A8FE0007F97E3 /* LineICAGraph.swift */; };
+		B57C85BA2A974AAC00CF1164 /* NSImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57C85B92A974AAC00CF1164 /* NSImage+Extension.swift */; };
+		B581C1282939B4C3004B905E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C1272939B4C3004B905E /* AppDelegate.swift */; };
+		B581C12A2939B4C3004B905E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C1292939B4C3004B905E /* MainViewController.swift */; };
+		B581C12C2939B4C4004B905E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B581C12B2939B4C4004B905E /* Assets.xcassets */; };
+		B581C1372939B641004B905E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C1362939B641004B905E /* main.swift */; };
+		B581C13A2939BA99004B905E /* FlatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C1392939BA99004B905E /* FlatButton.swift */; };
+		B581C13C2939BBA1004B905E /* HeatMapGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C13B2939BBA1004B905E /* HeatMapGraph.swift */; };
+		B581C13E2939BBB8004B905E /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B581C13D2939BBB8004B905E /* LineGraph.swift */; };
+		B58B28F02A959D11005E0812 /* DigitalSignalProcessing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B58B28EE2A959D11005E0812 /* DigitalSignalProcessing.cpp */; };
+		B5D4BA01293E1B0500A7D680 /* SerialObjc.mm in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA00293E1B0500A7D680 /* SerialObjc.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B5D4BA05293E1B3500A7D680 /* Serial.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA03293E1B3500A7D680 /* Serial.cpp */; };
+		B5D4BA08293E1C9300A7D680 /* RingDeque.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA06293E1C9300A7D680 /* RingDeque.cpp */; };
+		B5D4BA0A293E2D9F00A7D680 /* SerialPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA09293E2D9F00A7D680 /* SerialPresenter.swift */; };
+		B5D4BA0C293EB92800A7D680 /* ConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA0B293EB92800A7D680 /* ConfigViewController.swift */; };
+		B5D4BA0E293EBA9900A7D680 /* CheckBoxAndDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA0D293EBA9900A7D680 /* CheckBoxAndDescriptionView.swift */; };
+		B5D4BA10293EBC2B00A7D680 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA0F293EBC2B00A7D680 /* CheckBox.swift */; };
+		B5D4BA12293ECAFD00A7D680 /* NSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA11293ECAFD00A7D680 /* NSLabel.swift */; };
+		B5D4BA14293F327100A7D680 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA13293F327100A7D680 /* Struct.swift */; };
+		B5D4BA16293F570300A7D680 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D4BA15293F570300A7D680 /* ConfigManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B55E8110296A88BF007F97E3 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		B55E8112296A8E93007F97E3 /* HeatMapGraphICA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapGraphICA.swift; sourceTree = "<group>"; };
+		B55E8114296A8FE0007F97E3 /* LineICAGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineICAGraph.swift; sourceTree = "<group>"; };
+		B57C85B92A974AAC00CF1164 /* NSImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSImage+Extension.swift"; sourceTree = "<group>"; };
+		B581C1242939B4C3004B905E /* PressSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PressSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B581C1272939B4C3004B905E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B581C1292939B4C3004B905E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B581C12B2939B4C4004B905E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B581C1302939B4C4004B905E /* PressSensor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PressSensor.entitlements; sourceTree = "<group>"; };
+		B581C1362939B641004B905E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B581C1392939BA99004B905E /* FlatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatButton.swift; sourceTree = "<group>"; };
+		B581C13B2939BBA1004B905E /* HeatMapGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapGraph.swift; sourceTree = "<group>"; };
+		B581C13D2939BBB8004B905E /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
+		B58B28EE2A959D11005E0812 /* DigitalSignalProcessing.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DigitalSignalProcessing.cpp; sourceTree = "<group>"; };
+		B58B28EF2A959D11005E0812 /* DigitalSignalProcessing.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DigitalSignalProcessing.hpp; sourceTree = "<group>"; };
+		B5D4B9FF293E1B0500A7D680 /* PressSensor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PressSensor-Bridging-Header.h"; sourceTree = "<group>"; };
+		B5D4BA00293E1B0500A7D680 /* SerialObjc.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = SerialObjc.mm; sourceTree = "<group>"; };
+		B5D4BA02293E1B2400A7D680 /* SerialObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialObjc.h; sourceTree = "<group>"; };
+		B5D4BA03293E1B3500A7D680 /* Serial.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Serial.cpp; sourceTree = "<group>"; };
+		B5D4BA04293E1B3500A7D680 /* Serial.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Serial.hpp; sourceTree = "<group>"; };
+		B5D4BA06293E1C9300A7D680 /* RingDeque.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RingDeque.cpp; sourceTree = "<group>"; };
+		B5D4BA07293E1C9300A7D680 /* RingDeque.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RingDeque.hpp; sourceTree = "<group>"; };
+		B5D4BA09293E2D9F00A7D680 /* SerialPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerialPresenter.swift; sourceTree = "<group>"; };
+		B5D4BA0B293EB92800A7D680 /* ConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigViewController.swift; sourceTree = "<group>"; };
+		B5D4BA0D293EBA9900A7D680 /* CheckBoxAndDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxAndDescriptionView.swift; sourceTree = "<group>"; };
+		B5D4BA0F293EBC2B00A7D680 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		B5D4BA11293ECAFD00A7D680 /* NSLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLabel.swift; sourceTree = "<group>"; };
+		B5D4BA13293F327100A7D680 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		B5D4BA15293F570300A7D680 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B581C1212939B4C3004B905E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B581C11B2939B4C3004B905E = {
+			isa = PBXGroup;
+			children = (
+				B581C1262939B4C3004B905E /* PressSensor */,
+				B581C1252939B4C3004B905E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B581C1252939B4C3004B905E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B581C1242939B4C3004B905E /* PressSensor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B581C1262939B4C3004B905E /* PressSensor */ = {
+			isa = PBXGroup;
+			children = (
+				B5A51624293E1A980043AD75 /* Serial */,
+				B581C1382939B99B004B905E /* UIs */,
+				B581C1272939B4C3004B905E /* AppDelegate.swift */,
+				B581C1292939B4C3004B905E /* MainViewController.swift */,
+				B57C85B92A974AAC00CF1164 /* NSImage+Extension.swift */,
+				B55E8110296A88BF007F97E3 /* Matrix.swift */,
+				B5D4BA0B293EB92800A7D680 /* ConfigViewController.swift */,
+				B5D4BA09293E2D9F00A7D680 /* SerialPresenter.swift */,
+				B5D4BA15293F570300A7D680 /* ConfigManager.swift */,
+				B581C12B2939B4C4004B905E /* Assets.xcassets */,
+				B581C1302939B4C4004B905E /* PressSensor.entitlements */,
+				B581C1362939B641004B905E /* main.swift */,
+			);
+			path = PressSensor;
+			sourceTree = "<group>";
+		};
+		B581C1382939B99B004B905E /* UIs */ = {
+			isa = PBXGroup;
+			children = (
+				B581C1392939BA99004B905E /* FlatButton.swift */,
+				B581C13D2939BBB8004B905E /* LineGraph.swift */,
+				B55E8114296A8FE0007F97E3 /* LineICAGraph.swift */,
+				B581C13B2939BBA1004B905E /* HeatMapGraph.swift */,
+				B55E8112296A8E93007F97E3 /* HeatMapGraphICA.swift */,
+				B5D4BA0D293EBA9900A7D680 /* CheckBoxAndDescriptionView.swift */,
+				B5D4BA0F293EBC2B00A7D680 /* CheckBox.swift */,
+				B5D4BA11293ECAFD00A7D680 /* NSLabel.swift */,
+				B5D4BA13293F327100A7D680 /* Struct.swift */,
+			);
+			path = UIs;
+			sourceTree = "<group>";
+		};
+		B5A51624293E1A980043AD75 /* Serial */ = {
+			isa = PBXGroup;
+			children = (
+				B5D4B9FF293E1B0500A7D680 /* PressSensor-Bridging-Header.h */,
+				B5D4BA00293E1B0500A7D680 /* SerialObjc.mm */,
+				B58B28EE2A959D11005E0812 /* DigitalSignalProcessing.cpp */,
+				B58B28EF2A959D11005E0812 /* DigitalSignalProcessing.hpp */,
+				B5D4BA02293E1B2400A7D680 /* SerialObjc.h */,
+				B5D4BA03293E1B3500A7D680 /* Serial.cpp */,
+				B5D4BA04293E1B3500A7D680 /* Serial.hpp */,
+				B5D4BA06293E1C9300A7D680 /* RingDeque.cpp */,
+				B5D4BA07293E1C9300A7D680 /* RingDeque.hpp */,
+			);
+			path = Serial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B581C1232939B4C3004B905E /* PressSensor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B581C1332939B4C4004B905E /* Build configuration list for PBXNativeTarget "PressSensor" */;
+			buildPhases = (
+				B581C1202939B4C3004B905E /* Sources */,
+				B581C1212939B4C3004B905E /* Frameworks */,
+				B581C1222939B4C3004B905E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PressSensor;
+			productName = PressSensor;
+			productReference = B581C1242939B4C3004B905E /* PressSensor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B581C11C2939B4C3004B905E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					B581C1232939B4C3004B905E = {
+						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = B581C11F2939B4C3004B905E /* Build configuration list for PBXProject "PressSensor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B581C11B2939B4C3004B905E;
+			productRefGroup = B581C1252939B4C3004B905E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B581C1232939B4C3004B905E /* PressSensor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B581C1222939B4C3004B905E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581C12C2939B4C4004B905E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B581C1202939B4C3004B905E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B581C13C2939BBA1004B905E /* HeatMapGraph.swift in Sources */,
+				B5D4BA05293E1B3500A7D680 /* Serial.cpp in Sources */,
+				B5D4BA0A293E2D9F00A7D680 /* SerialPresenter.swift in Sources */,
+				B5D4BA0C293EB92800A7D680 /* ConfigViewController.swift in Sources */,
+				B55E8111296A88BF007F97E3 /* Matrix.swift in Sources */,
+				B5D4BA0E293EBA9900A7D680 /* CheckBoxAndDescriptionView.swift in Sources */,
+				B5D4BA01293E1B0500A7D680 /* SerialObjc.mm in Sources */,
+				B581C12A2939B4C3004B905E /* MainViewController.swift in Sources */,
+				B5D4BA12293ECAFD00A7D680 /* NSLabel.swift in Sources */,
+				B581C1282939B4C3004B905E /* AppDelegate.swift in Sources */,
+				B5D4BA08293E1C9300A7D680 /* RingDeque.cpp in Sources */,
+				B581C13A2939BA99004B905E /* FlatButton.swift in Sources */,
+				B5D4BA14293F327100A7D680 /* Struct.swift in Sources */,
+				B55E8113296A8E93007F97E3 /* HeatMapGraphICA.swift in Sources */,
+				B581C13E2939BBB8004B905E /* LineGraph.swift in Sources */,
+				B55E8115296A8FE0007F97E3 /* LineICAGraph.swift in Sources */,
+				B5D4BA10293EBC2B00A7D680 /* CheckBox.swift in Sources */,
+				B57C85BA2A974AAC00CF1164 /* NSImage+Extension.swift in Sources */,
+				B58B28F02A959D11005E0812 /* DigitalSignalProcessing.cpp in Sources */,
+				B581C1372939B641004B905E /* main.swift in Sources */,
+				B5D4BA16293F570300A7D680 /* ConfigManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B581C1312939B4C4004B905E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B581C1322939B4C4004B905E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INSTALL_MODULE = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B581C1342939B4C4004B905E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PressSensor/PressSensor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomokikuchi.PressSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PressSensor/Serial/PressSensor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B581C1352939B4C4004B905E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PressSensor/PressSensor.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW9R4V4F7;
+				ENABLE_HARDENED_RUNTIME = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomokikuchi.PressSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "PressSensor/Serial/PressSensor-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B581C11F2939B4C3004B905E /* Build configuration list for PBXProject "PressSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581C1312939B4C4004B905E /* Debug */,
+				B581C1322939B4C4004B905E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B581C1332939B4C4004B905E /* Build configuration list for PBXNativeTarget "PressSensor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B581C1342939B4C4004B905E /* Debug */,
+				B581C1352939B4C4004B905E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B581C11C2939B4C3004B905E /* Project object */;
+}
